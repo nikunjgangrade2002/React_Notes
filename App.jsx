@@ -15,7 +15,7 @@ export default function App() {
     const currentNote = 
         notes.find(note => note.id === currentNoteId) 
         || notes[0]
-
+//
     React.useEffect(() => {
         localStorage.setItem("notes", JSON.stringify(notes))
     }, [notes])
