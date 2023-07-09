@@ -28,7 +28,7 @@ export default function App() {
         setNotes(prevNotes => [newNote, ...prevNotes])
         setCurrentNoteId(newNote.id)
     }
-//This the main funtion
+//This the main 
     
     function updateNote(text) {
         setNotes(oldNotes => {
